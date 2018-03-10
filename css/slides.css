@@ -1,0 +1,33 @@
+.slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background: #fff;
+  color: #212121;
+  transition: transform .5s;
+  transform: translate(-90%,0) scale(.8);
+}
+
+.slide:target ~ .slide {
+  transform: translate(90%,0) scale(.8);
+}
+
+.slide:target + .slide {
+  z-index: 1;
+}
+
+.slide:target {
+  z-index: 2;
+  transform: translate(0) scale(1);
+}
+
+.presentation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}

@@ -1,0 +1,76 @@
+.controls {
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  opacity: .25;
+  transition: opacity 2s;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+
+.button-prev,
+.button-next {
+  display: block;
+  margin: 0 .75rem;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #0003 no-repeat center / 50%;
+  color: transparent;
+  opacity: .5;
+  box-shadow: 0 2px 4px #0003;
+  transition: opacity .15s;
+}
+
+.button-prev:hover,
+.button-prev:focus,
+.button-next:hover,
+.button-next:focus {
+  opacity: 1;
+}
+
+.button-prev:active,
+.button-next:active {
+  background-color: #e53935;
+  outline: 0;
+}
+
+.button-prev {
+  background-image: url("../images/left-chevron.svg");
+}
+
+.button-next {
+  background-image: url("../images/right-chevron.svg");
+}
+
+
+.page-progress {
+  -webkit-appearance: none;
+  appearance: none;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  display: block;
+}
+
+.page-progress[value]::-webkit-progress-bar {
+  background: transparent;
+}
+
+.page-progress[value]::-webkit-progress-value {
+  background: #e53935;
+  transition: .25s;
+}
