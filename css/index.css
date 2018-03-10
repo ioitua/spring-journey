@@ -1,0 +1,10 @@
+@import url("reset.css");
+@import url("base.css");
+@import url("sections.css");
+
+@import url("slides.css");
+@import url("gallery.css");
+
+@import url("content.css");
+
+@import url("controls.css");
