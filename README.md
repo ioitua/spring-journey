@@ -9,5 +9,7 @@
 ## Матеріали
 
 - [Завдання](https://ioitua.github.io/spring-journey/)
-- [Заготовка](/releases/workpiece) — файли, що надаються для виконання завдання
-- [Розв'язок](/releases/solution) — розв'язок автора завдання
+- [Заготовка](https://github.com/ioitua/spring-journey/archive/workpiece.zip)
+  — файли, що надаються для виконання завдання
+- [Розв'язок](https://github.com/ioitua/spring-journey/archive/solution.zip)
+  — розв'язок автора завдання
